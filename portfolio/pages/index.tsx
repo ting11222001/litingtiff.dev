@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <body className="bg-[#14182c] h-screen text-white">
+    <div className="bg-[#14182c] h-screen text-white">
       <Header />
 
       <div className="flex justify-center mb-8">
@@ -23,9 +23,9 @@ export default function Home() {
           <div>
             <h2 className="font-semibold text-2xl pb-8">Selected work</h2>
           </div>
-          <ProjectCard title={"Metaverse"} description={"A metaverse-themed landing page with animation effect and responsive design."} />
-          <ProjectCard title={"The Succulent's World"} description={"An eCommerce shop for the Succulent's lovers."} />
-          <ProjectCard title={"Uber-Clone"} description={"Build Uber app front-end mobile with key features from scratch."} />
+          <ProjectCard image={"/metaverse.png"} title={"Metaverse"} description={"A metaverse-themed landing page with animation effect and responsive design."} />
+          <ProjectCard image={"/succulent.png"} title={"The Succulent's World"} description={"An eCommerce shop for the Succulent's lovers."} />
+          <ProjectCard image={"/vercel.svg"} title={"Uber-Clone"} description={"Build Uber app front-end mobile with key features from scratch."} />
           <p className="text-xl pt-5">
             <Link href="/">View Projects →</Link>
           </p>
@@ -33,6 +33,6 @@ export default function Home() {
       </div>
 
       <Footer />
-    </body >
+    </div >
   )
 }
