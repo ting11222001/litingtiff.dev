@@ -5,7 +5,7 @@ type Props = {}
 
 const Header = (props: Props) => {
   return (
-    <div className="flex mx-auto max-w-screen-sm justify-between">
+    <div className="flex mx-auto max-w-screen-sm justify-between mt-5">
       <div>
         Li-Ting Liao
       </div>

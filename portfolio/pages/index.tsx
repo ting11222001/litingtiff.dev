@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { Header, ProjectCard } from '../components';
+import { Header, ProjectCard, Footer } from '../components';
 import Link from 'next/link';
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <body className="bg-[#14182c] h-screen text-white">
       <Header />
 
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-8">
         <div className="flex flex-col max-w-screen-sm">
           <div className="py-8">
             <h1 className="font-display text-5xl py-8">A software developer passionate about building beautiful, user-friendly web and mobile applications</h1>
@@ -26,11 +26,13 @@ export default function Home() {
           <ProjectCard title={"Metaverse"} description={"A metaverse-themed landing page with animation effect and responsive design."} />
           <ProjectCard title={"The Succulent's World"} description={"An eCommerce shop for the Succulent's lovers."} />
           <ProjectCard title={"Uber-Clone"} description={"Build Uber app front-end mobile with key features from scratch."} />
-          <p className="text-xl pt-8">
+          <p className="text-xl pt-5">
             <Link href="/">View Projects →</Link>
           </p>
         </div>
       </div>
+
+      <Footer />
     </body >
   )
 }
