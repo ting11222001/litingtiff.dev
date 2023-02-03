@@ -1,10 +1,24 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import { Header } from '../components';
 
 export default function Home() {
   return (
-    <div className="bg-[#14182c] flex h-screen text-white">
-      <h1 className="p-10">123</h1>
-    </div>
+    <body className="bg-[#14182c] h-screen text-white">
+      <div className="flex justify-center">
+        <Header />
+      </div>
+
+      <div className="flex justify-center">
+        <div className="flex flex-col max-w-screen-sm">
+          <div>
+            <h1>A web engineer interested in design systems and closing the gap between design and development</h1>
+          </div>
+          <div>
+            <h2>Selected work</h2>
+          </div>
+        </div>
+      </div>
+    </body>
   )
 }
