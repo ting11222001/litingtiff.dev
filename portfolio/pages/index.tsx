@@ -5,9 +5,7 @@ import { Header } from '../components';
 export default function Home() {
   return (
     <body className="bg-[#14182c] h-screen text-white">
-      <div className="flex justify-center">
-        <Header />
-      </div>
+      <Header />
 
       <div className="flex justify-center">
         <div className="flex flex-col max-w-screen-sm">
@@ -19,6 +17,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </body>
+    </body >
   )
 }
