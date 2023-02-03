@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="p-10 text-red-500">123</h1>
+    <div className="bg-[#14182c] flex h-screen text-white">
+      <h1 className="p-10">123</h1>
     </div>
   )
 }
