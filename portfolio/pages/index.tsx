@@ -10,7 +10,7 @@ export default function Home() {
       <div className="flex justify-center">
         <div className="flex flex-col max-w-screen-sm">
           <div>
-            <h1>A web engineer interested in design systems and closing the gap between design and development</h1>
+            <h1 className="font-display text-5xl">A web engineer interested in design systems and closing the gap between design and development</h1>
           </div>
           <div>
             <h2>Selected work</h2>
