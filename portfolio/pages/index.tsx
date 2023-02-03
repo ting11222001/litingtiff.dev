@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { Header } from '../components';
+import { Header, ProjectCard } from '../components';
 
 export default function Home() {
   return (
@@ -21,6 +21,9 @@ export default function Home() {
 
           <div>
             <h2 className="font-semibold text-2xl">Selected work</h2>
+          </div>
+          <div>
+            <ProjectCard />
           </div>
         </div>
       </div>
