@@ -4,7 +4,7 @@ type Props = {}
 
 function Footer({ }: Props) {
   return (
-    <div className="flex mx-auto max-w-screen-sm justify-between">
+    <div className="flex mx-auto max-w-xl justify-between pt-5">
       <div>Footer</div>
     </div>
   )

@@ -5,11 +5,17 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="bg-[#14182c] h-screen text-white">
+    <div className="bg-[#14182c] w-screen h-screen text-white pl-8 pr-8">
       <Header />
 
-      <div className="flex justify-center mb-8">
-        <div className="flex flex-col max-w-screen-sm">
+      <div className="flex mx-auto max-w-xl">
+        <div className="flex items-center absolute opacity-40 top-0">
+          <div className="self-start relative top-0 left-0 w-36 h-36 rounded-full bg-gradient-to-b from-violet-500 to-fuchsia-500 z-40"></div>
+          <div className="relative top-0 left-0 w-80 h-80 rounded-full bg-gradient-to-b from-green-400 to-blue-500 z-30"></div>
+          <div className="self-end relative top-0 left-0 w-56 h-56 rounded-full bg-gradient-to-b from-pink-500 to-yellow-500 z-20"></div>
+        </div>
+
+        <div className="flex flex-col justify-content">
           <div className="py-8">
             <h1 className="font-display text-5xl py-8">A software developer passionate about building beautiful, user-friendly web and mobile applications</h1>
             <p className="text-2xl">
@@ -25,7 +31,7 @@ export default function Home() {
           </div>
           <ProjectCard image={"/metaverse.png"} title={"Metaverse"} description={"A metaverse-themed landing page with animation effect and responsive design."} />
           <ProjectCard image={"/succulent.png"} title={"The Succulent's World"} description={"An eCommerce shop for the Succulent's lovers."} />
-          <ProjectCard image={"/vercel.svg"} title={"Uber-Clone"} description={"Build Uber app front-end mobile with key features from scratch."} />
+          <ProjectCard image={"/metaverse.png"} title={"Uber-Clone"} description={"Build Uber app front-end mobile with key features from scratch."} />
           <p className="text-xl pt-5">
             <Link href="/">View Projects →</Link>
           </p>
