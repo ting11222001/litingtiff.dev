@@ -23,7 +23,7 @@ export default function Home() {
               👋 Hi I am Li-Ting, a design-focused developer based in Adelaide, Australia.
             </p>
             <p className="text-xl pt-8">
-              <Link href="/">View Profile →</Link>
+              <Link href="/profile">View Profile →</Link>
             </p>
           </div>
 
@@ -37,7 +37,7 @@ export default function Home() {
             />
           ))}
           <p className="text-xl pt-5">
-            <Link href="/">View Projects →</Link>
+            <Link href="/projects">View Projects →</Link>
           </p>
         </div>
       </div>

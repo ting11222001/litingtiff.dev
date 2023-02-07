@@ -13,11 +13,13 @@ const Header = (props: Props) => {
       </div >
 
       <div className="flex flex-row gap-2">
-        <h2 className="text-xl">Profile</h2>
+        <h2 className="text-xl">
+          <Link href="/profile">Profile</Link>
+        </h2>
         <h2 className="text-xl">
           <Link href="/projects">Projects</Link>
         </h2>
-        <h2 className="text-xl">Contact</h2>
+        {/* <h2 className="text-xl">Contact</h2> */}
       </div>
     </div >
   )
