@@ -12,7 +12,7 @@ const Header = (props: Props) => {
         </h2>
       </div>
 
-      <div className="flex flex-row">
+      <div className="flex flex-row gap-2">
         <h2>Profile</h2>
         <h2>
           <Link href="/projects">Projects</Link>
