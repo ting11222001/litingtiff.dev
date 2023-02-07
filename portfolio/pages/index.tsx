@@ -31,7 +31,7 @@ export default function Home() {
           </div>
           <ProjectCard image={"/metaverse.png"} title={"Metaverse"} description={"A metaverse-themed landing page with animation effect and responsive design."} />
           <ProjectCard image={"/succulent.png"} title={"The Succulent's World"} description={"An eCommerce shop for the Succulent's lovers."} />
-          <ProjectCard image={"/metaverse.png"} title={"Uber-Clone"} description={"Build Uber app front-end mobile with key features from scratch."} />
+          {/* <ProjectCard image={"/metaverse.png"} title={"Uber-Clone"} description={"Build Uber app front-end mobile with key features from scratch."} /> */}
           <p className="text-xl pt-5">
             <Link href="/">View Projects →</Link>
           </p>
