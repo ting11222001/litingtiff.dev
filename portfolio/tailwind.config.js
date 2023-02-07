@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'display': ['Cabin', 'sans-serif'],
+      },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
       }
     },
   },

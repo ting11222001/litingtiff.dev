@@ -10,9 +10,9 @@ export default function Home() {
 
       <div className="flex mx-auto max-w-xl pt-16 relative">
         <div className="flex items-center absolute opacity-40 top-0 pt-16">
-          <div className="self-start relative top-0 left-0 w-36 h-36 rounded-full bg-gradient-to-b from-violet-500 to-fuchsia-500 z-40"></div>
-          <div className="ml-[-10%] relative top-0 left-0 w-80 h-80 rounded-full bg-gradient-to-b from-green-400 to-blue-500 z-30"></div>
-          <div className="ml-[-10%] mt-[10%] self-end relative top-0 left-0 w-56 h-56 rounded-full bg-gradient-to-b from-pink-500 to-yellow-500 z-20"></div>
+          <div className="self-start relative top-0 left-0 w-36 h-36 rounded-full bg-gradient-to-b from-violet-500 to-fuchsia-500 z-40 animate-spin-slow"></div>
+          <div className="ml-[-10%] relative top-0 left-0 w-80 h-80 rounded-full bg-gradient-to-b from-green-400 to-blue-500 z-30 animate-spin-slow"></div>
+          <div className="ml-[-10%] mt-[10%] self-end relative top-0 left-0 w-56 h-56 rounded-full bg-gradient-to-b from-pink-500 to-yellow-500 z-20 animate-spin-slow"></div>
         </div>
 
         <div className="flex flex-col justify-content z-50">
