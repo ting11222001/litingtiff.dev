@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { Header, ProjectCard, Footer } from '../components';
 import Link from 'next/link';
+import { projectsData } from '../constants';
 
 export default function Home() {
   return (
@@ -29,9 +30,12 @@ export default function Home() {
           <div>
             <h2 className="font-semibold text-2xl pb-8">Selected work</h2>
           </div>
-          <ProjectCard image={"/metaverse.png"} title={"Metaverse"} description={"A metaverse-themed landing page with animation effect and responsive design."} />
-          <ProjectCard image={"/succulent.png"} title={"The Succulent's World"} description={"An eCommerce shop for the Succulent's lovers."} />
-          {/* <ProjectCard image={"/metaverse.png"} title={"Uber-Clone"} description={"Build Uber app front-end mobile with key features from scratch."} /> */}
+          {projectsData.map((project, index) => (
+            <ProjectCard
+              key={project.id}
+              {...project}
+            />
+          ))}
           <p className="text-xl pt-5">
             <Link href="/">View Projects →</Link>
           </p>

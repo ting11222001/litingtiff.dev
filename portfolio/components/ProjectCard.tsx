@@ -1,18 +1,19 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
-
 
 type Props = {
   image: string,
   title: string,
-  description: string
+  description: string,
+  github: string,
+  demo: string
 }
 
-const ProjectCard = ({ image, title, description }: Props) => {
+const ProjectCard = ({ image, title, description, github, demo }: Props) => {
+  console.log(github);
   return (
     <div className="flex gap-4 pb-6">
-      <div className="flex-1 relative max-w-lg bg-top">
+      <div className="flex-1 relative">
         <Image
           src={image}
           alt="project image"
@@ -25,9 +26,20 @@ const ProjectCard = ({ image, title, description }: Props) => {
         <p className="my-4 font-light">
           {description}
         </p>
-        <p>
-          <Link href="/">Read more →</Link>
-        </p>
+
+        <div className="flex flex-row gap-4">
+          <div className="border-solid border-2 border-slate-500 p-1 rounded-md hover:border-pink-500">
+            <a href={github}>
+              GitHub
+            </a>
+          </div>
+          <div className="border-solid border-2 border-slate-500 p-1 rounded-md hover:border-yellow-500">
+            <a href={demo}>
+              Live Demo
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   )

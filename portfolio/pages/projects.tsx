@@ -1,5 +1,6 @@
 import React from 'react';
 import { Header, ProjectCard } from '../components';
+import { projectsData } from '../constants';
 
 type Props = {}
 
@@ -15,8 +16,12 @@ const projects = (props: Props) => {
           🔨 Recent and past projects
         </p>
 
-        <ProjectCard image={"/metaverse.png"} title={"Metaverse"} description={"A metaverse-themed landing page with animation effect and responsive design."} />
-        <ProjectCard image={"/succulent.png"} title={"The Succulent's World"} description={"An eCommerce shop for the Succulent's lovers."} />
+        {projectsData.map((project, index) => (
+          <ProjectCard
+            key={project.id}
+            {...project}
+          />
+        ))}
       </div>
 
     </div>
