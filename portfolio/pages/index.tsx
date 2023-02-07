@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="bg-[#14182c] w-screen h-screen text-white pl-8 pr-8">
+    <div className="w-screen h-screen text-white pl-8 pr-8">
       <Header />
 
       <div className="flex mx-auto max-w-xl">
