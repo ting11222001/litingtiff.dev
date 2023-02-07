@@ -23,7 +23,7 @@ const TimelineItem = ({ year, title, duration, details }: Props) => {
             {duration}
           </div>
         </p>
-        <p className="my-2 text-base font-normal text-stone-400">
+        <p className="my-2 text-base font-normal text-gray-400">
           {details}
         </p>
       </li>
