@@ -19,6 +19,7 @@ export const projectsData = [
 
 export const timeline = [
   {
+    id: 'time-1',
     year: '2022 - Present',
     title: 'Current Student at The University of Adelaide',
     duration: '8 months',
@@ -26,6 +27,7 @@ export const timeline = [
       'I decided to pursue a Master\'s degree in Computing and Innovation at The University of Adelaide to sharpen my knowledge of Computer Science.I learned about computer systems, data structures and algorithms, and also built up fluency in multiple programming languages.',
   },
   {
+    id: 'time-2',
     year: '2020 - 2022',
     title: 'Junior Developer',
     duration: '1.5 year',
@@ -33,13 +35,15 @@ export const timeline = [
       'I was fortunate to be able to join Trunk Studio as a junior developer, working with the product team to create the front end of websites and mobile apps. We worked in an agile team setting. Our tech stack consisted of TypeSciprt, React, Vue, PHP, and a handful of other languages and tools.',
   },
   {
+    id: 'time-3',
     year: '2019 - 2020',
-    title: 'Amateur',
+    title: 'Hobbyist Coder',
     duration: '1 year',
     details:
       'While maintaining a demanding full-time job in the market research industry, I delved into various online and in-person programming courses. To document my coding experiences, I began sharing them on Medium and created a collection of portfolios.',
   },
   {
+    id: 'time-4',
     year: '2018',
     title: 'First Line of Code',
     duration: 'The beginning',

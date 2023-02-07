@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header } from '../components';
+import { Header, Timeline } from '../components';
 
 type Props = {}
 
@@ -20,6 +20,8 @@ const profile = (props: Props) => {
           <br></br>
           I am especially enthusiastic about creating user-friendly web and mobile applications and have had the privilege of collaborating with exceptional teams in these areas.
         </p>
+
+        <Timeline />
       </div>
 
     </div>
