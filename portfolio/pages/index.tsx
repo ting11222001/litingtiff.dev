@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen text-white pl-8 pr-8">
+    <div>
       <Header />
 
       <div className="flex mx-auto max-w-xl pt-16 relative">
