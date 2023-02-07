@@ -15,7 +15,7 @@ export default function Home() {
           <div className="ml-[-10%] mt-[10%] self-end relative top-0 left-0 w-56 h-56 rounded-full bg-gradient-to-b from-pink-500 to-yellow-500 z-20"></div>
         </div>
 
-        <div className="flex flex-col justify-content">
+        <div className="flex flex-col justify-content z-50">
           <div className="py-8">
             <h1 className="font-display text-5xl py-8">A software developer passionate about building beautiful, user-friendly web and mobile applications</h1>
             <p className="text-2xl">
