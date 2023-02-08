@@ -12,7 +12,7 @@ const profile = (props: Props) => {
         <h1 className="font-display text-5xl py-8">Profile</h1>
         <p className="text-2xl mb-5">Hi there! 👋</p>
         <p className="text-xl mb-5">
-          I'm Li-Ting, a software developer and a graduate student at The University of Adelaide. I am currently located in Adelaide and actively engaged in various side projects to apply my theoretical knowledge.
+          I&apos;m Li-Ting, a software developer and a graduate student at The University of Adelaide. I am currently located in Adelaide and actively engaged in various side projects to apply my theoretical knowledge.
         </p>
         <p className="text-xl">
           I am especially enthusiastic about creating user-friendly web and mobile applications and have had the privilege of collaborating with exceptional teams in these areas.
