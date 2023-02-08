@@ -15,6 +15,54 @@ export const projectsData = [
     github: 'https://github.com/ting11222001/The-Succulent-World-eCommerce',
     demo: 'https://the-succulent-world-e-commerce.vercel.app/'
   },
+  {
+    id: 'project-3',
+    image: '/weather.png',
+    title: 'How\'s the Weather',
+    description: 'A Real-Time Weather App for those who want concise weather information based on where they are.',
+    github: 'https://github.com/ting11222001/Weather-At-Where-You-Are',
+    demo: 'https://medium.com/li-ting-liao-tiffany/creating-a-real-time-weather-app-with-flask-folium-chartjs-in-python-495f5533e97f'
+  },
+  {
+    id: 'project-4',
+    image: '/fruit.png',
+    title: 'Fruit Yield Assessment from Photos',
+    description: 'Used scikit-learn, a free software machine learning library for the Python programming language, to count fruits in a given image.',
+    github: 'https://github.com/ting11222001/Fruit-Yield-Assessment-from-Photos',
+    demo: 'https://medium.com/li-ting-liao-tiffany/fruit-yield-assessment-from-photos-using-python-and-scikit-learn-2a5f58c4a097'
+  },
+  {
+    id: 'project-5',
+    image: '/traffic.png',
+    title: 'Visualize Open Data using MongoDB in Real-Time',
+    description: 'Connected PM 2.5 open data API in the Taiwanese government\'s open-data platform, and scheduled to update the data in real-time in MongoDB.',
+    github: '',
+    demo: 'https://medium.com/li-ting-liao-tiffany/visualize-open-data-using-mongodb-in-real-time-2cca4bcca26e'
+  },
+  {
+    id: 'project-6',
+    image: '/iot.png',
+    title: 'IoT Device Tracker',
+    description: 'A Simple IoT Device Tracker built with the MERN stack.',
+    github: 'https://github.com/ting11222001/Device-Registry',
+    demo: 'https://medium.com/li-ting-liao-tiffany/build-a-simple-iot-device-tracker-and-deploy-to-aws-ec2-e11db5da4013'
+  },
+  {
+    id: 'project-7',
+    image: '/river.png',
+    title: 'Visualize the River Pollution Status in Taiwan',
+    description: 'Used Elasticsearch and Kibana to visualize the River Pollution Status data in Taiwan.',
+    github: '',
+    demo: 'https://medium.com/li-ting-liao-tiffany/geo-exploration-with-elasticsearch-and-kibana-d6a7a64c116'
+  },
+  {
+    id: 'project-8',
+    image: '/crowd.png',
+    title: 'Real-Time User Profile Data Pipeline',
+    description: 'Used kakfa and Elasticsearch to receive and visualize the real-time user profile data.',
+    github: '',
+    demo: 'https://medium.com/li-ting-liao-tiffany/real-time-user-profile-data-pipeline-from-kafka-to-elasticsearch-5f557300b97d'
+  },
 ];
 
 export const timeline = [

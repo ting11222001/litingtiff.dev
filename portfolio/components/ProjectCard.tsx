@@ -5,8 +5,8 @@ type Props = {
   image: string,
   title: string,
   description: string,
-  github: string,
-  demo: string
+  github?: string,
+  demo?: string
 }
 
 const ProjectCard = ({ image, title, description, github, demo }: Props) => {
@@ -28,14 +28,16 @@ const ProjectCard = ({ image, title, description, github, demo }: Props) => {
         </p>
 
         <div className="flex flex-row gap-4">
-          <div className="border-solid border-2 border-slate-500 p-1 rounded-md hover:border-pink-500">
-            <a href={github}>
-              GitHub
-            </a>
-          </div>
+          {github && (
+            <div className="border-solid border-2 border-slate-500 p-1 rounded-md hover:border-pink-500">
+              <a href={github}>
+                GitHub
+              </a>
+            </div>
+          )}
           <div className="border-solid border-2 border-slate-500 p-1 rounded-md hover:border-yellow-500">
             <a href={demo}>
-              Live Demo
+              Demo
             </a>
           </div>
         </div>
