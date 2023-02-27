@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import Image from 'next/image';
 
 type Props = {
   image: string,
@@ -13,12 +13,11 @@ const ProjectCard = ({ image, title, description, github, demo }: Props) => {
   console.log(github);
   return (
     <div className="flex gap-4 pb-6">
-      <div className="flex-1 relative">
-        <Image
+      <div className="flex-1 relative h-40 aspect-w-1 aspect-h-1 w-80 overflow-hidden rounded-md">
+        <img
           src={image}
           alt="project image"
-          fill // required
-          objectFit="cover" // change to suit your needs
+          className="h-full w-full object-cover object-center lg:h-full lg:w-full"
         />
       </div>
       <div className="flex-1">

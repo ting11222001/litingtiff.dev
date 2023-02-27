@@ -27,15 +27,15 @@ export const projectsData = [
     id: 'project-4',
     image: '/fruit.png',
     title: 'Fruit Yield Assessment from Photos',
-    description: 'Used scikit-learn, a free software machine learning library for the Python programming language, to count fruits in a given image.',
+    description: 'Used scikit-learn, a free software machine learning library in Python, to count fruits in a given image.',
     github: 'https://github.com/ting11222001/Fruit-Yield-Assessment-from-Photos',
     demo: 'https://medium.com/li-ting-liao-tiffany/fruit-yield-assessment-from-photos-using-python-and-scikit-learn-2a5f58c4a097'
   },
   {
     id: 'project-5',
     image: '/air.png',
-    title: 'Visualize Open Data using MongoDB in Real-Time',
-    description: 'Connected PM 2.5 open data API in the Taiwanese government\'s open-data platform, and scheduled to update the data in real-time in MongoDB.',
+    title: 'Real-Time Visualize Open Data',
+    description: 'Visualize PM 2.5 data in MongoDB from the Taiwanese government\'s open-data platform.',
     github: '',
     demo: 'https://medium.com/li-ting-liao-tiffany/visualize-open-data-using-mongodb-in-real-time-2cca4bcca26e'
   },
@@ -72,7 +72,7 @@ export const timeline = [
     title: 'Current Student at The University of Adelaide',
     duration: '8 months',
     details:
-      'I decided to pursue a Master\'s degree in Computing and Innovation at The University of Adelaide to sharpen my knowledge of Computer Science.I learned about computer systems, data structures and algorithms, and also built up fluency in multiple programming languages.',
+      'I decided to pursue a Master\'s degree in Computing and Innovation at The University of Adelaide to sharpen my knowledge of Computer Science. I learned about computer systems, data structures and algorithms, and also built up fluency in multiple programming languages.',
   },
   {
     id: 'time-2',
