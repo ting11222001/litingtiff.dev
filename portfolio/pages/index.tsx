@@ -3,6 +3,8 @@ import Image from 'next/image';
 import { Header, ProjectCard, Footer } from '../components';
 import Link from 'next/link';
 import { projectsData } from '../constants';
+import { motion } from "framer-motion";
+import { majorTitleVariants, minorTitleVariants } from '../utils/motion';
 
 export default function Home() {
   return (
@@ -18,13 +20,31 @@ export default function Home() {
 
         <div className="flex flex-col justify-content z-50">
           <div className="py-8">
-            <h1 className="font-display text-5xl py-8">A software developer passionate about building beautiful, user-friendly web and mobile applications</h1>
-            <p className="text-2xl">
-              👋 Hi I am Li-Ting, a design-focused developer based in Adelaide, Australia.
-            </p>
-            <p className="text-xl pt-8">
-              <Link href="/profile">View Profile →</Link>
-            </p>
+            <motion.div
+              initial="offscreen"
+              whileInView="onscreen"
+              viewport={{ once: true, amount: 0.8 }}
+            >
+              <motion.div variants={majorTitleVariants}>
+                <h1 className="font-display text-5xl py-8">A software developer passionate about building beautiful, user-friendly web and mobile applications</h1>
+              </motion.div>
+            </motion.div>
+
+            <motion.div
+              initial="offscreen"
+              whileInView="onscreen"
+              viewport={{ once: true, amount: 0.8 }}
+            >
+              <motion.div variants={minorTitleVariants}>
+                <p className="text-2xl">
+                  👋 Hi I am Li-Ting, a design-focused developer based in Adelaide, Australia.
+                </p>
+                <p className="text-xl pt-8">
+                  <Link href="/profile">View Profile →</Link>
+                </p>
+              </motion.div>
+            </motion.div>
+
           </div>
 
           <div>
