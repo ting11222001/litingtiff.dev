@@ -17,7 +17,7 @@ export const projectsData = [
   },
   {
     id: 'project-3',
-    image: '/weather.png',
+    image: '/sky.png',
     title: 'How\'s the Weather',
     description: 'A Real-Time Weather App for those who want concise weather information based on where they are.',
     github: 'https://github.com/ting11222001/Weather-At-Where-You-Are',
