@@ -33,7 +33,7 @@ export const projectsData = [
   },
   {
     id: 'project-5',
-    image: '/traffic.png',
+    image: '/air.png',
     title: 'Visualize Open Data using MongoDB in Real-Time',
     description: 'Connected PM 2.5 open data API in the Taiwanese government\'s open-data platform, and scheduled to update the data in real-time in MongoDB.',
     github: '',
