@@ -48,43 +48,7 @@ const ProjectCard = ({ image, title, description, github, demo }: Props) => {
         </div>
 
       </div >
-
-
-
     </div >
-
-
-    // <div className="flex gap-4 pb-6">
-    //   <div className="flex-1 relative h-40 aspect-w-1 aspect-h-1 w-80 overflow-hidden rounded-md">
-    //     <img
-    //       src={image}
-    //       alt="project image"
-    //       className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-    //     />
-    //   </div>
-    //   <div className="flex-1">
-    //     <h3 className="font-medium">{title}</h3>
-    //     <p className="my-4 font-light">
-    //       {description}
-    //     </p>
-
-    //     <div className="flex flex-row gap-4">
-    //       {github && (
-    //         <div className="border-solid border-2 border-slate-500 p-1 rounded-md hover:border-pink-500">
-    //           <a href={github}>
-    //             GitHub
-    //           </a>
-    //         </div>
-    //       )}
-    //       <div className="border-solid border-2 border-slate-500 p-1 rounded-md hover:border-yellow-500">
-    //         <a href={demo}>
-    //           Demo
-    //         </a>
-    //       </div>
-    //     </div>
-
-    //   </div>
-    // </div>
   )
 }
 
