@@ -16,6 +16,14 @@ export const projectsData = [
     demo: 'https://the-succulent-world-e-commerce.vercel.app/'
   },
   {
+    id: 'project-10',
+    image: '/digital.png',
+    title: 'Trading.co',
+    description: 'A trading commerce website with responsive design.',
+    github: 'https://github.com/ting11222001/Trading-Commerce-Page',
+    demo: 'https://trading-commerce-page.vercel.app/'
+  },
+  {
     id: 'project-3',
     image: '/sky.png',
     title: 'How\'s the Weather',
