@@ -1,7 +1,7 @@
 export const projectsData = [
   {
     id: 'project-1',
-    image: '/metaverse.png',
+    image: '/metaverse.webp',
     title: 'Metaverse',
     description: 'A metaverse-themed landing page with animation effect and responsive design.',
     github: 'https://github.com/ting11222001/Metaversus-Landing-Page',
@@ -9,7 +9,7 @@ export const projectsData = [
   },
   {
     id: 'project-2',
-    image: '/succulent.png',
+    image: '/succulent.webp',
     title: 'The Succulent\'s World',
     description: 'An eCommerce shop for the Succulent\'s lovers.',
     github: 'https://github.com/ting11222001/The-Succulent-World-eCommerce',
@@ -17,7 +17,7 @@ export const projectsData = [
   },
   {
     id: 'project-10',
-    image: '/digital.png',
+    image: '/digital.webp',
     title: 'Trading.co',
     description: 'A trading commerce website with responsive design.',
     github: 'https://github.com/ting11222001/Trading-Commerce-Page',
@@ -25,7 +25,7 @@ export const projectsData = [
   },
   {
     id: 'project-3',
-    image: '/sky.png',
+    image: '/sky.webp',
     title: 'How\'s the Weather',
     description: 'A Real-Time Weather App for those who want concise weather information based on where they are.',
     github: 'https://github.com/ting11222001/Weather-At-Where-You-Are',
@@ -33,7 +33,7 @@ export const projectsData = [
   },
   {
     id: 'project-4',
-    image: '/fruit.png',
+    image: '/fruit.webp',
     title: 'Fruit Yield Assessment from Photos',
     description: 'Used scikit-learn, a free software machine learning library in Python, to count fruits in a given image.',
     github: 'https://github.com/ting11222001/Fruit-Yield-Assessment-from-Photos',
@@ -41,7 +41,7 @@ export const projectsData = [
   },
   {
     id: 'project-5',
-    image: '/air.png',
+    image: '/air.webp',
     title: 'Real-Time Visualize Open Data',
     description: 'Visualize PM 2.5 data in MongoDB from the Taiwanese government\'s open-data platform.',
     github: '',
@@ -49,7 +49,7 @@ export const projectsData = [
   },
   {
     id: 'project-6',
-    image: '/iot.png',
+    image: '/iot.webp',
     title: 'IoT Device Tracker',
     description: 'A Simple IoT Device Tracker built with the MERN stack.',
     github: 'https://github.com/ting11222001/Device-Registry',
@@ -57,7 +57,7 @@ export const projectsData = [
   },
   {
     id: 'project-7',
-    image: '/river.png',
+    image: '/river.webp',
     title: 'Visualize the River Pollution Status in Taiwan',
     description: 'Used Elasticsearch and Kibana to visualize the River Pollution Status data in Taiwan.',
     github: '',
@@ -65,7 +65,7 @@ export const projectsData = [
   },
   {
     id: 'project-8',
-    image: '/crowd.png',
+    image: '/crowd.webp',
     title: 'Real-Time User Profile Data Pipeline',
     description: 'Used kakfa and Elasticsearch to receive and visualize the real-time user profile data.',
     github: '',
