@@ -1,7 +1,7 @@
 export const projectsData = [
   {
     id: 'project-1',
-    image: '/metaverse.webp',
+    image: '/universe.webp',
     title: 'Metaverse',
     description: 'A metaverse-themed landing page with animation effect and responsive design.',
     github: 'https://github.com/ting11222001/Metaversus-Landing-Page',

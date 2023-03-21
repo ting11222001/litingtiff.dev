@@ -17,14 +17,9 @@ const ProjectCard = ({ image, title, description, github, demo }: Props) => {
       <div className='md:flex md:pb-4 items-center'>
 
         <div className="relative h-40 aspect-w-1 aspect-h-1 md:w-[300px] overflow-hidden rounded-md">
-          {/* <img
-            src={image}
-            alt="project image"
-            className="h-full w-full object-cover object-center"
-          /> */}
           <Image
             src={image}
-            alt="A picture of laptop"
+            alt="Project image"
             width={500}
             height={450}
             placeholder="blur"
