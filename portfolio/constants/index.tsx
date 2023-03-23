@@ -16,10 +16,26 @@ export const projectsData = [
     demo: 'https://the-succulent-world-e-commerce.vercel.app/'
   },
   {
+    id: 'project-12',
+    image: '/dalle.webp',
+    title: 'DALL-E Prototype',
+    description: 'An AI image generation app using the OpenAI DALL-E machine model with Cloudinary and MongoDB as database.',
+    github: 'https://github.com/ting11222001/AI-Image-Generation-App',
+    demo: 'https://ai-image-generation-app-blue.vercel.app/'
+  },
+  {
+    id: 'project-11',
+    image: '/analytics.webp',
+    title: 'Data.com',
+    description: 'A data analytics commerce website with typewrite animation and responsive design.',
+    github: 'https://github.com/ting11222001/Analytics-Commerce-Page',
+    demo: 'https://analytics-commerce-page-8kdy-qba164p71-ting11222001-gmailcom.vercel.app/'
+  },
+  {
     id: 'project-10',
     image: '/digital.webp',
     title: 'Trading.co',
-    description: 'A trading commerce website with responsive design.',
+    description: 'A trading commerce website with video cover and responsive design.',
     github: 'https://github.com/ting11222001/Trading-Commerce-Page',
     demo: 'https://trading-commerce-page.vercel.app/'
   },
