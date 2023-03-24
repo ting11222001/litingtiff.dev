@@ -21,7 +21,7 @@ export const projectsData = [
     title: 'DALL-E Prototype',
     description: 'An AI image generation app using the OpenAI DALL-E machine model with Cloudinary and MongoDB as database.',
     github: 'https://github.com/ting11222001/AI-Image-Generation-App',
-    demo: 'https://ai-image-generation-app-blue.vercel.app/'
+    demo: 'https://ai-image-generation-app-client.vercel.app/'
   },
   {
     id: 'project-11',

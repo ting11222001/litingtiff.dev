@@ -9,7 +9,7 @@ const projects = (props: Props) => {
     <div>
       <Header />
 
-      <div className="flex flex-col mx-auto max-w-xl min-w-sm pt-16">
+      <div className="flex flex-col mx-auto max-w-xl pt-16">
         <h1 className="font-display text-5xl py-8">Projects</h1>
 
         <p className="text-2xl mb-[5%]">

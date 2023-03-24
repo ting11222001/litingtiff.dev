@@ -27,7 +27,7 @@ const ProjectCard = ({ image, title, description, github, demo }: Props) => {
           />
         </div>
 
-        <div className='max-w-[300px] py-4 md:pl-4 md:py-0'>
+        <div className='md:max-w-[300px] py-4 md:pl-4 md:py-0'>
           <h3 className="font-medium">{title}</h3>
           <p className="my-4 font-light">
             {description}

@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <Header />
 
-      <div className="flex mx-auto max-w-xl min-w-sm pt-16 relative">
+      <div className="flex mx-auto max-w-xl pt-16 relative">
         <div className="flex items-center absolute opacity-40 top-0 pt-16">
           <div className="relative md:top-[-30px] top-0 left-0 md:w-40 md:h-40 rounded-full bg-gradient-to-b from-violet-500 to-fuchsia-500 z-40 animate-spin-slow"></div>
           <div className="relative md:top-0 top-[80px] md:left-[-50px] w-80 h-80 rounded-full bg-gradient-to-b from-green-400 to-blue-500 z-30 animate-spin-slow"></div>
