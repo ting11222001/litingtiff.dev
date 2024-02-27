@@ -51,12 +51,12 @@ export default function Home() {
             <h2 className="font-semibold text-2xl pb-8">Selected work</h2>
           </div>
           <ProjectCard
-            key={projectsData[0].id}
-            {...projectsData[0]}
+            key={projectsData[3].id}
+            {...projectsData[3]}
           />
           <ProjectCard
-            key={projectsData[1].id}
-            {...projectsData[1]}
+            key={projectsData[2].id}
+            {...projectsData[2]}
           />
           <p className="text-xl pt-5">
             <Link href="/projects">View Projects →</Link>
