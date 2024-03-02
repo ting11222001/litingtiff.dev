@@ -51,8 +51,8 @@ export default function Home() {
             <h2 className="font-semibold text-2xl pb-8">Selected work</h2>
           </div>
           <ProjectCard
-            key={projectsData[3].id}
-            {...projectsData[3]}
+            key={projectsData[0].id}
+            {...projectsData[0]}
           />
           <ProjectCard
             key={projectsData[2].id}
