@@ -2,8 +2,8 @@ export const projectsData = [
   {
     id: '1910125247',
     image: '/motion.png',
-    title: 'Dynamic Design Studio Hub',
-    description: 'An animated portfolio website powered by React and Framer Motion with sleek UI animations, inviting visitors to connect with the website owner.',
+    title: 'Anna Watson Studio',
+    description: 'An design studio website powered by sleek UI animations, inviting visitors to connect with the website owner.',
     github: 'https://github.com/ting11222001/Developer-Portfolio-Space',
     demo: 'https://developer-portfolio-space.vercel.app/'
   },
@@ -11,15 +11,15 @@ export const projectsData = [
     id: '7054368784',
     image: '/thoughts.png',
     title: 'ThoughtCraft Blog Nexus',
-    description: 'An intuitive journey through Creative Thoughts Agency\'s Opinion Blog, seamlessly managed in a unified interface, providing a platform that introduces the minds behind the creativity.',
+    description: 'A creative studio website that enables the website owner to effortlessly manage blog content through a unified interface.',
     github: 'https://github.com/ting11222001/Creative-Agency-Dark',
     demo: 'https://creative-agency-dark.vercel.app/'
   },
   {
     id: '5900980419',
     image: '/finance.png',
-    title: 'Dark Mode Finance Dashboard',
-    description: 'A financial dashboard app displaying data from MongoDB database which allows users to delve into financial insights in a visually appealing platform, also featuring basic machine learning predictions.',
+    title: 'Finanseer',
+    description: 'A modern dashboard allowing users to delve into data, and featuring basic machine learning predictions.',
     github: 'https://github.com/ting11222001/Finance-Dashboard-Dark',
     demo: 'https://finance-dashboard-client-seven.vercel.app/'
   },
@@ -27,7 +27,7 @@ export const projectsData = [
     id: '5900980419',
     image: '/sleek.png',
     title: 'Sleek Portfolio Showcase',
-    description: 'A modern, stylish Design Portfolio Landing Page with a seamlessly integrated dark and light mode switch, crafted for efficiency using Tailwind CSS to accelerate development speed.',
+    description: 'A simplistic Design Portfolio Landing Page with a seamlessly integrated dark and light mode switch.',
     github: 'https://github.com/ting11222001/Designer-Portfolio-Rose',
     demo: 'https://ting11222001.github.io/Designer-Portfolio-Rose/'
   },
