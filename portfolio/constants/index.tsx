@@ -3,7 +3,7 @@ export const projectsData = [
     id: '1910125247',
     image: '/motion.png',
     title: 'Anna Watson Studio',
-    description: 'An design studio website powered by sleek UI animations, inviting visitors to connect with the website owner.',
+    description: 'A design studio website powered by sleek UI animations, inviting visitors to connect with the website owner.',
     github: 'https://github.com/ting11222001/Developer-Portfolio-Space',
     demo: 'https://developer-portfolio-space.vercel.app/'
   },
