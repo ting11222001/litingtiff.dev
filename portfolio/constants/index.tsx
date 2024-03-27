@@ -1,5 +1,13 @@
 export const projectsData = [
   {
+    id: '1910125347',
+    image: '/health.png',
+    title: 'Thriveful Mental Health',
+    description: 'An online counselling booking website, aiming to provide low-cost online counseling services to the public.',
+    github: 'https://github.com/ting11222001/Health-Booking-Website',
+    demo: 'https://health-booking-website-client.vercel.app/'
+  },
+  {
     id: '1910125247',
     image: '/motion.png',
     title: 'Anna Watson Studio',

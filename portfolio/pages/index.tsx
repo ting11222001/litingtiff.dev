@@ -55,8 +55,8 @@ export default function Home() {
             {...projectsData[0]}
           />
           <ProjectCard
-            key={projectsData[2].id}
-            {...projectsData[2]}
+            key={projectsData[3].id}
+            {...projectsData[3]}
           />
           <p className="text-xl pt-5">
             <Link href="/projects">View Projects →</Link>
