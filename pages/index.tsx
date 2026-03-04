@@ -41,7 +41,7 @@ export default function Home() {
           <div className="
             w-40 h-40 
             md:w-60 md:h-60
-            -ml-16 
+            -ml-20 
             md:-ml-12
             rounded-full
             bg-gradient-to-b from-pink-500 to-yellow-500
