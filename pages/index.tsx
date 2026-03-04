@@ -12,30 +12,43 @@ export default function Home() {
       <Header />
 
       <div className="flex mx-auto max-w-xl pt-16 relative">
-        {/* <div className="flex items-center absolute opacity-40 top-0 pt-16">
-          <div className="relative md:top-[-30px] top-0 left-0 md:w-40 md:h-40 rounded-full bg-gradient-to-b from-violet-500 to-fuchsia-500 z-40 animate-spin-slow"></div>
-          <div className="relative md:top-0 top-[80px] md:left-[-50px] w-80 h-80 rounded-full bg-gradient-to-b from-green-400 to-blue-500 z-30 animate-spin-slow"></div>
-          <div className="self-end relative top-0 left-[-120px] md:w-60 md:h-60 rounded-full bg-gradient-to-b from-pink-500 to-yellow-500 z-20 animate-spin-slow"></div>
-        </div> */}
+        <div className="flex items-start justify-center absolute top-0 pt-16 opacity-60">
 
-        <div className="flex items-center absolute opacity-70 top-0 pt-16">
+        <div className="
+          w-32 h-32
+          md:w-40 md:h-40
+          mt-8
+          md:mt-4
+          rounded-full
+          bg-gradient-to-b from-violet-500 to-fuchsia-500
+          z-40
+          animate-float-spin
+        "></div>
 
-          <div className="relative md:top-[-30px] top-0 left-0 
-          md:w-40 md:h-40 rounded-full 
-          bg-gradient-to-b from-violet-500 to-fuchsia-500 
-          z-40 animate-float-spin"></div>
+        <div className="
+          w-56 h-56 
+          md:w-80 md:h-80
+          -mt-8
+          -ml-16 
+          md:-ml-12
+          rounded-full
+          bg-gradient-to-b from-green-400 to-blue-500
+          z-30
+          animate-[floatSpin_7s_ease-in-out_infinite]
+        "></div>
 
-          <div className="relative md:top-0 top-[80px] md:left-[-50px] 
-          w-80 h-80 rounded-full 
-          bg-gradient-to-b from-green-400 to-blue-500 
-          z-30 animate-[floatSpin_7s_ease-in-out_infinite]"></div>
+        <div className="
+          w-40 h-40 
+          md:w-60 md:h-60
+          -ml-16 
+          md:-ml-12
+          rounded-full
+          bg-gradient-to-b from-pink-500 to-yellow-500
+          z-20
+          animate-[floatSpin_5s_ease-in-out_infinite]
+        "></div>
 
-          <div className="self-end relative top-0 left-[-120px] 
-          md:w-60 md:h-60 rounded-full 
-          bg-gradient-to-b from-pink-500 to-yellow-500 
-          z-20 animate-[floatSpin_5s_ease-in-out_infinite]"></div>
-
-        </div>
+      </div>
 
         <div className="flex flex-col justify-content z-50">
           <div className="py-8">
