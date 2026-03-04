@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body className="bg-[#14182c] w-screen h-screen text-white pl-8 pr-8">
+      <body className="bg-[#14182c] w-screen min-h-screen text-white">
         <Main />
         <NextScript />
       </body>

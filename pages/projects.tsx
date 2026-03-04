@@ -6,7 +6,7 @@ type Props = {}
 
 const projects = (props: Props) => {
   return (
-    <div>
+    <div className='px-8'>
       <Header />
 
       <div className="flex flex-col mx-auto max-w-xl pt-16">
