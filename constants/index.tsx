@@ -2,26 +2,10 @@ export const projectsData = [
   {
     id: '1910125347',
     image: '/health.png',
-    title: 'Thriveful Mental Health',
+    title: 'Thriveful',
     description: 'An online counselling booking website, aiming to provide low-cost online counseling services to the public.',
     github: 'https://github.com/ting11222001/Health-Booking-Website',
     demo: 'https://health-booking-website-client.vercel.app/'
-  },
-  {
-    id: '1910125247',
-    image: '/motion.png',
-    title: 'Anna Watson Studio',
-    description: 'A design studio website powered by sleek UI animations, inviting visitors to connect with the website owner.',
-    github: 'https://github.com/ting11222001/Developer-Portfolio-Space',
-    demo: 'https://developer-portfolio-space.vercel.app/'
-  },
-  {
-    id: '7054368784',
-    image: '/thoughts.png',
-    title: 'ThoughtCraft Blog Nexus',
-    description: 'A creative studio website that enables the website owner to effortlessly manage blog content through a unified interface.',
-    github: 'https://github.com/ting11222001/Creative-Agency-Dark',
-    demo: 'https://creative-agency-dark.vercel.app/'
   },
   {
     id: '5900980419',
@@ -55,30 +39,6 @@ export const projectsData = [
     github: 'https://github.com/ting11222001/The-Succulent-World-eCommerce',
     demo: 'https://the-succulent-world-e-commerce.vercel.app/'
   },
-  // {
-  //   id: '5128002332',
-  //   image: '/dalle.webp',
-  //   title: 'DALL-E Prototype',
-  //   description: 'An AI image generation app using the OpenAI DALL-E machine model with Cloudinary and MongoDB as database.',
-  //   github: 'https://github.com/ting11222001/AI-Image-Generation-App',
-  //   demo: 'https://ai-image-generation-app-client.vercel.app/'
-  // },
-  {
-    id: '4476648843',
-    image: '/analytics.webp',
-    title: 'Data.com',
-    description: 'A data analytics commerce website with typewrite animation and responsive design.',
-    github: 'https://github.com/ting11222001/Analytics-Commerce-Page',
-    demo: 'https://analytics-commerce-page-8kdy-qba164p71-ting11222001-gmailcom.vercel.app/'
-  },
-  // {
-  //   id: '7076646726',
-  //   image: '/digital.webp',
-  //   title: 'Trading.co',
-  //   description: 'A trading commerce website with video cover and responsive design.',
-  //   github: 'https://github.com/ting11222001/Trading-Commerce-Page',
-  //   demo: 'https://trading-commerce-page.vercel.app/'
-  // },
   {
     id: '0369243170',
     image: '/sky.webp',
@@ -127,6 +87,47 @@ export const projectsData = [
     github: '',
     demo: 'https://medium.com/li-ting-liao-tiffany/real-time-user-profile-data-pipeline-from-kafka-to-elasticsearch-5f557300b97d'
   },
+  // deprecated:
+  // {
+  //   id: '1910125247',
+  //   image: '/motion.png',
+  //   title: 'Anna Watson Studio',
+  //   description: 'A design studio website powered by sleek UI animations, inviting visitors to connect with the website owner.',
+  //   github: 'https://github.com/ting11222001/Developer-Portfolio-Space',
+  //   demo: 'https://developer-portfolio-space.vercel.app/'
+  // },
+  // {
+  //   id: '7054368784',
+  //   image: '/thoughts.png',
+  //   title: 'ThoughtCraft Blog Nexus',
+  //   description: 'A creative studio website that enables the website owner to effortlessly manage blog content through a unified interface.',
+  //   github: 'https://github.com/ting11222001/Creative-Agency-Dark',
+  //   demo: 'https://creative-agency-dark.vercel.app/'
+  // },
+  // {
+  //   id: '5128002332',
+  //   image: '/dalle.webp',
+  //   title: 'DALL-E Prototype',
+  //   description: 'An AI image generation app using the OpenAI DALL-E machine model with Cloudinary and MongoDB as database.',
+  //   github: 'https://github.com/ting11222001/AI-Image-Generation-App',
+  //   demo: 'https://ai-image-generation-app-client.vercel.app/'
+  // },
+  // {
+  //   id: '4476648843',
+  //   image: '/analytics.webp',
+  //   title: 'Data.com',
+  //   description: 'A data analytics commerce website with typewrite animation and responsive design.',
+  //   github: 'https://github.com/ting11222001/Analytics-Commerce-Page',
+  //   demo: 'https://analytics-commerce-page-8kdy-qba164p71-ting11222001-gmailcom.vercel.app/'
+  // },
+  // {
+  //   id: '7076646726',
+  //   image: '/digital.webp',
+  //   title: 'Trading.co',
+  //   description: 'A trading commerce website with video cover and responsive design.',
+  //   github: 'https://github.com/ting11222001/Trading-Commerce-Page',
+  //   demo: 'https://trading-commerce-page.vercel.app/'
+  // },
 ];
 
 export const timeline = [

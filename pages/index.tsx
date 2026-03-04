@@ -26,7 +26,7 @@ export default function Home() {
               viewport={{ once: true, amount: 0.8 }}
             >
               <motion.div variants={majorTitleVariants}>
-                <h1 className="font-display text-5xl py-8">A software developer passionate about building beautiful, user-friendly web and mobile applications</h1>
+                <h1 className="font-display text-5xl py-8">Li-Ting Liao</h1>
               </motion.div>
             </motion.div>
 
@@ -37,29 +37,29 @@ export default function Home() {
             >
               <motion.div variants={minorTitleVariants}>
                 <p className="text-2xl">
-                  👋 Hi I am Li-Ting, a design-focused developer based in Adelaide, Australia.
+                  🧋 Software Engineer in Adelaide 🇦🇺 · Taiwan 🇹🇼 
                 </p>
-                <p className="text-xl pt-8">
-                  <Link href="/profile">View Profile →</Link>
-                </p>
+                {/* <p className="text-xl pt-8">
+                  <Link href="/profile">View Full Resume →</Link>
+                </p> */}
               </motion.div>
             </motion.div>
 
           </div>
 
           <div>
-            <h2 className="font-semibold text-2xl pb-8">Selected work</h2>
+            <h2 className="font-semibold text-2xl pb-8">Featured</h2>
           </div>
           <ProjectCard
             key={projectsData[0].id}
             {...projectsData[0]}
           />
           <ProjectCard
-            key={projectsData[3].id}
-            {...projectsData[3]}
+            key={projectsData[1].id}
+            {...projectsData[1]}
           />
           <p className="text-xl pt-5">
-            <Link href="/projects">View Projects →</Link>
+            <Link href="/projects">View Full Projects →</Link>
           </p>
         </div>
       </div>
