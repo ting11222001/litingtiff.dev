@@ -13,7 +13,6 @@ const Header = (props: Props) => {
       </div >
 
       <div className="flex flex-row gap-2">
-        // Update the Profile page later
         {/* <h2 className="text-xl">
           <Link href="/profile">Profile</Link>
         </h2> */}

@@ -11,8 +11,15 @@ module.exports = {
         'display': ['Cabin', 'sans-serif'],
       },
       animation: {
-        'spin-slow': 'spin 3s linear infinite',
-      }
+        "float-spin": "floatSpin 4s ease-in-out infinite",
+      },
+      keyframes: {
+        floatSpin: {
+          "0%": { transform: "translateY(0px) rotate(0deg)" },
+          "50%": { transform: "translateY(-20px) rotate(180deg)" },
+          "100%": { transform: "translateY(0px) rotate(360deg)" },
+        },
+      },
     },
   },
   plugins: [],
